@@ -14,6 +14,7 @@ public:
 		for (int i = 0; i < 3; i++) {
 			ticket_2m[i].resize(9);
 		}
+		Ticket_generation()
 		ticket_id = Random(1, 100000);
 		price = Random(80, 120);
 	}
